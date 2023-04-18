@@ -126,7 +126,7 @@ export default class CircularProgress extends React.PureComponent {
                 fill="transparent"
               />
             )}
-            {secondFill && (
+            {secondFill > 0 && (
               <Path
                 d={secondCirclePath}
                 stroke= {secondFillTintColor ? secondFillTintColor : tintColor}
