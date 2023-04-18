@@ -29,6 +29,13 @@ declare module 'react-native-circular-progress' {
      */
     fill: number;
 
+     /**
+     * Second Current progress / fill if exists
+     *
+     * @type {number}
+     */
+    secondFill?: number;
+
     /**
      * Thickness of background circle
      *
@@ -44,6 +51,14 @@ declare module 'react-native-circular-progress' {
      * @default 'black'
      */
     tintColor?: string;
+
+    /**
+     * Color of the second progress line if exists
+     *
+     * @type {string}
+     * @default tintColor
+     */
+    secondFillTintColor?: string;
 
     /**
      * Change the fill color from tintColor to tintColorSecondary as animation progresses.
