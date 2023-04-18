@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bgryszko/react-native-circular-progress.git"
+    "url": "git+ssh://git@github.com/buildforce-org/react-native-circular-progress.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bgryszko/react-native-circular-progress/issues"
+    "url": "https://github.com/buildforce-org/react-native-circular-progress/issues"
   },
-  "homepage": "https://github.com/bgryszko/react-native-circular-progress",
+  "homepage": "https://github.com/buildforce-org/react-native-circular-progress",
   "dependencies": {
     "prop-types": "^15.8.1"
   },
